@@ -9,4 +9,5 @@
 
 ## DSA tips
 * Use good varible names, even they are little long, they make things more intuitive.
+* Write modular code! For e.g. if you need to use next smaller element and previous smaller elememt. Don't do everything in main function itself. Create functions for them so that code is modularised and is easier to debug.
 * In graph, if constraints are 1-based then don't forget to -1 them to offset because generally we use 0-based indexed arrays.
